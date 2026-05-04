@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300&display=swap');
 
 :root {
-  --verde: #009246;
+  --blu: #3c3b6e;
   --bianco: #ffffff;
-  --rosso: #CE2B37;
+  --rosso: #b22234;
   --oro: #D4AF37;
   --blu-scuro: #0A0E1A;
   --blu-medio: #0F1628;
@@ -55,7 +55,7 @@ nav {
   display: flex; height: 28px; width: 6px; border-radius: 2px; overflow: hidden; flex-direction: column;
 }
 .nav-logo .tricolore span { flex: 1; }
-.nav-logo .tricolore span:nth-child(1) { background: var(--verde); }
+.nav-logo .tricolore span:nth-child(1) { background: var(--blu); }
 .nav-logo .tricolore span:nth-child(2) { background: var(--bianco); }
 .nav-logo .tricolore span:nth-child(3) { background: var(--rosso); }
 
@@ -100,7 +100,7 @@ nav {
 .page-hero::before {
   content: '';
   position: absolute; top: 0; left: 0; right: 0; height: 3px;
-  background: linear-gradient(90deg, var(--verde), var(--bianco), var(--rosso));
+  background: linear-gradient(90deg, var(--blu), var(--bianco), var(--rosso));
 }
 .page-hero h1 {
   font-family: 'Oswald', sans-serif; font-size: clamp(2.2rem, 5vw, 3.5rem);
